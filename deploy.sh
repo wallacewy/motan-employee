@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker run -d -p 8001:8001 motan-employee
+docker run -d -p 8002:8002 motan-employee
