@@ -8,7 +8,7 @@
     <!-- service implemention bean -->
     <bean id="employeeServiceImpl" class="com.wallace.motan.EmployeeServiceImpl" />
     <!-- exporting service by motan -->
-    <motan:service interface="com.wallace.motan.EmployeeService" ref="employeeServiceImpl" registry="my_consul" export="8002" group="v1" />
+    <motan:service interface="com.wallace.motan.EmployeeService" ref="employeeServiceImpl" registry="my_consul" export="8002" group="v2" />
 
     <motan:registry regProtocol="consul" name="my_consul" address="10.58.9.201:8500"/>
 </beans>
